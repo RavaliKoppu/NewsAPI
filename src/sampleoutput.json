@@ -1,0 +1,592 @@
+    // let url="https://jsonplaceholder.typicode.com/users";
+        // let data=await fetch(url);
+        // let parsedData=await data.json();
+        // console.log("api data"+data);
+        // this.setState({articles:parsedData})
+
+        // var url = 'https://newsapi.org/v2/everything?' +
+        //   'q=Apple&' +
+        //   'from=2022-11-16&' +
+        //   'sortBy=popularity&' +
+        //   'apiKey=0acfa1f0af8149c6aa4bb005a0537224';
+
+        // var req = new Request(url);
+
+        // fetch(req)
+        // .then((response)=> response.json())
+        // .then((json)=>{
+        //         this.setState({
+        //             articles:json.articles,
+        //             loading:true
+        //         })
+        // });
+
+
+
+
+
+{
+    "status": "ok",
+    "totalResults": 731,
+    "articles": [
+    {
+    "source": {
+    "id": null,
+    "name": "The Guardian"
+    },
+    "author": "Patrick Wintour in Bali",
+    "title": "Sergei Lavrov, a fixture of Russian diplomacy facing his toughest test in Ukraine",
+    "description": "That Moscow’s foreign minister has outlasted seven US secretaries of state is testament to his usefulness to Vladimir Putin<ul><li>Russia-Ukraine war – latest news updates</li></ul>If Sergei Lavrov, the 72-year-old whiskey-drinking Russian foreign minister, h…",
+    "url": "https://www.theguardian.com/world/2022/nov/15/sergei-lavrov-a-fixture-of-russian-diplomacy-facing-his-toughest-test-in-ukraine",
+    "urlToImage": "https://i.guim.co.uk/img/media/20c29c74e7ffe9117cbc70ffdbdf07da468bc366/339_157_1021_613/master/1021.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5a90d9e4aca2a7f8d44f072575475882",
+    "publishedAt": "2022-11-15T08:30:14Z",
+    "content": "If Sergei Lavrov, the 72-year-old whiskey-drinking Russian foreign minister, had indeed suffered a heart flutter soon after stepping off the plane in Bali it would have been understandable for a man … [+3642 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "The Guardian"
+    },
+    "author": "Rahul Raina",
+    "title": "‘In Delhi I can see climate catastrophe unfolding before my eyes’",
+    "description": "Rahul Raina splits his year between his homes in Oxford and Delhi, cities where the fallout from the climate crisis is being felt in starkly different ways<ul><li>This feature is part of the Between two worlds series</li></ul>The most recent battle in a long …",
+    "url": "https://www.theguardian.com/environment/2022/nov/15/delhi-climate-catastrophe-oxford-britain-crisis",
+    "urlToImage": "https://i.guim.co.uk/img/media/36ba9ddd68f038adf4d45459a48ceba8eea937ed/0_1_2531_1519/master/2531.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=14369988832159d5f1afe1988c2341d5",
+    "publishedAt": "2022-11-15T06:00:18Z",
+    "content": "The most recent battle in a long history of battles in Oxford has been triggered by the ow traffic neighbourhood scheme, a network of barriers and cameras being built in my area as part of efforts to… [+8163 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "MacRumors"
+    },
+    "author": "Sami Fathi",
+    "title": "Report Reveals Apple Employees Internally Unhappy With Plans to Show More Ads to iPhone Users",
+    "description": "A new report has revealed internal disagreement within Apple, causing some employees who work on the company's ads business to raise concerns that showing more ads to iPhone users ruins the premium experience that's been long offered to its customers, The Inf…",
+    "url": "https://www.macrumors.com/2022/11/15/apple-employees-unhappy-with-ads-for-iphone-users/",
+    "urlToImage": "https://images.macrumors.com/t/JaGV8IQcbICTDHXdcL3gdnx4QYU=/2048x/article-new/2022/10/App-Store-Ads.jpeg",
+    "publishedAt": "2022-11-15T09:05:33Z",
+    "content": "A new report has revealed internal disagreement within Apple, causing some employees who work on the company's ads business to raise concerns that showing more ads to iPhone users ruins the premium e… [+3505 chars]"
+    },
+    {
+    "source": {
+    "id": "business-insider",
+    "name": "Business Insider"
+    },
+    "author": "insider@insider.com (Carmine Gallo)",
+    "title": "I analyzed all 48,000 words of Jeff Bezos' Amazon shareholder letters. The visionary billionaire does 8 impressive things that prove he's a master of written communication.",
+    "description": "Over the course of 24 years, these letters show Jeff Bezos' genius at work: \"[The great memos] really might take a week or more.\"",
+    "url": "https://www.businessinsider.com/jeff-bezos-amazon-i-analyzed-all-48000-words-shareholder-letters-2022-11",
+    "urlToImage": "https://i.insider.com/6372a668828491001b2c5360?width=1200&format=jpeg",
+    "publishedAt": "2022-11-15T10:00:00Z",
+    "content": "Amazon founder Jeff Bezos is a dreamer who turned a bold idea into one of the world's most admired brands. When Bezos took the company public in 1997, he began writing annual letters to shareholders,… [+6753 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Hipertextual"
+    },
+    "author": "Rubén Chicharro",
+    "title": "Xiaomi 12T Pro, análisis: un smartphone excelente con un rival en su propia casa",
+    "description": "Es complicado seguir el ritmo de lanzamientos de Xiaomi. Principalmente, porque la compañía anuncia smartphones prácticamente cada dos semanas –ya sea bajo la marca principal o mediante alguna submarca como Redmi o Poco–. No obstante, entre toda esa multitud …",
+    "url": "https://hipertextual.com/2022/11/xiaomi-12t-pro-review-analisis-opinion-caracteristicas-precio",
+    "urlToImage": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2022/11/xiaomi-12t-pro.jpg?fit=1920%2C1080&quality=60&strip=all&ssl=1",
+    "publishedAt": "2022-11-15T04:20:00Z",
+    "content": "Es complicado seguir el ritmo de lanzamientos de Xiaomi. Principalmente, porque la compañía anuncia smartphones prácticamente cada dos semanas ya sea bajo la marca principal o mediante alguna submarc… [+9413 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "https://www.facebook.com/bbcnews",
+    "title": "China zero Covid: Violent protests in Guangzhou put curbs under strain",
+    "description": "Anger boils over in the industrial city of Guangzhou, exposing cracks in Xi Jinping's signature policy.",
+    "url": "https://www.bbc.co.uk/news/world-asia-china-63633109",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/F855/production/_127637536_gettyimages-1244681605.jpg",
+    "publishedAt": "2022-11-15T09:34:50Z",
+    "content": "Crowds of residents in southern China's industrial metropolis Guangzhou have escaped a compulsory lockdown and clashed with police, as anger at strict coronavirus curbs boiled over.\r\nDramatic footage… [+3647 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Abortretry.fail"
+    },
+    "author": "Bradford Morgan White",
+    "title": "'Be' is nice. End of story",
+    "description": "pick a name from the dictionary, it can work",
+    "url": "https://www.abortretry.fail/p/be-is-nice-end-of-story",
+    "urlToImage": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3c02b3ac-0ef7-4316-8709-ae4f42c7a591_1024x1024.png",
+    "publishedAt": "2022-11-15T02:27:28Z",
+    "content": "Jean-Louis Gassée was born in Paris France in 1944. From 68 to 74, he worked for Hewlett Packard in Europe. He was in charge of a project to develop the first scientific desktop computer from HP, and… [+11358 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "heise online"
+    },
+    "author": "Ben Schwan",
+    "title": "Jobs: Apple stellt noch ein – aber \"sehr bewusst\"",
+    "description": "Apple-Chef Tim Cook hat sich zur aktuellen Situation seines Unternehmens geäußert. Massenentlassungen wie bei Meta oder Twitter sind wohl nicht geplant.",
+    "url": "https://www.heise.de/news/Jobs-Apple-stellt-noch-ein-aber-sehr-bewusst-7340294.html",
+    "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/3/6/4/3/3/0/4/Screen_Shot_2022-11-15_at_10.00.04-39c957ea2b8c2978.png",
+    "publishedAt": "2022-11-15T10:00:00Z",
+    "content": "Apple wird trotz der aktuellen wirtschaftlichen Lage, die auch im erfolgsverwöhnten Silicon Valley mit spürbaren Jobeinschnitten einhergeht, weiter neue Leute einstellen. Das hat Konzernchef Tim Cook… [+2524 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "heise online"
+    },
+    "author": "Ben Schwan",
+    "title": "Würfel lädt iPhone, AirPods und Apple Watch gleichzeitig",
+    "description": "Der 3-in-1 Cube von Anker ist vergleichsweise kompakt, kann aber drei häufig gemeinsam verwendete Apple-Produkte zeitgleich mit Strom versorgen.",
+    "url": "https://www.heise.de/news/Wuerfel-laedt-iPhone-AirPods-und-Apple-Watch-gleichzeitig-7339267.html",
+    "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/3/6/4/2/7/6/3/ankercube-fdbe5aaf8bb83daf.jpg",
+    "publishedAt": "2022-11-15T10:30:00Z",
+    "content": "Wer mehr als nur ein Apple-Gerät gleichzeitig aufladen möchte, braucht Zwei- oder Dreifachlader. Doch beim Hersteller selbst gibt es die nur eingeschränkt. So verkauft Apple sein veraltetes und mit n… [+2288 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "heise online"
+    },
+    "author": "Ben Schwan",
+    "title": "iPhone-14-Baureihe: Reparatur an einem Tag möglich",
+    "description": "Apples Ladengeschäfte und die autorisierten Serviceprovider müssen nun nicht mehr das gesamte Gerät tauschen, wenn Nutzer mit einem defekten iPhone 14 kommen.",
+    "url": "https://www.heise.de/news/iPhone-14-Baureihe-Reparatur-an-einem-Tag-moeglich-7340206.html",
+    "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/3/6/4/3/2/5/4/iPhone14-reparatur-d6c240fd04d14fb9.jpg",
+    "publishedAt": "2022-11-15T09:25:00Z",
+    "content": "Apples iPhone lässt sich nun auch in der jüngsten Generation in den weltweiten Ladengeschäften des Konzerns sowie bei autorisierten Apple-Service-Provider-Betrieben (ASP) am gleichen Tag reparieren, … [+2083 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "heise online"
+    },
+    "author": "Ben Schwan",
+    "title": "Serverfehler: Eingabe einzelner Buchstaben crashte Safari auf iPhone und iPad",
+    "description": "Am Montag kam es kurzzeitig zu einem brisanten Absturzfehler in Apples mobilem Browser. Der Fix ließ sich interessanterweise serverseitig implementieren.",
+    "url": "https://www.heise.de/news/Serverfehler-Eingabe-einzelner-Buchstaben-crashte-Safari-auf-iPhone-und-iPad-7340210.html",
+    "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/3/6/4/3/2/5/6/safari-og-twitter_2x-e3437636c5ebaa10-5229640c7adf15b5.png",
+    "publishedAt": "2022-11-15T09:05:00Z",
+    "content": "Apple-Nutzer in mehreren Weltregionen waren am Montag über einen längeren Zeitraum mit einem äußerst merkwürdigen Bug in Safari konfrontiert, der den Standardbrowser ihres iPhone oder iPad verlässlic… [+2219 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "heise online"
+    },
+    "author": "Andreas Knobloch",
+    "title": "Dienstag: Google muss zahlen, Amazon entlässt",
+    "description": "Google mit Millionenstrafe + Amazon plant Stellenabbau + Betrüger stehlen Kreditkarten-Infos + \r\nÄrger in Indien + 400-Millionen-Überweisung an falsche Wallet",
+    "url": "https://www.heise.de/news/Dienstag-Google-muss-zahlen-Amazon-entlaesst-7340081.html",
+    "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/3/6/4/3/1/8/4/Wochentage-source-sans-8cd54b4b9c8ee776.png",
+    "publishedAt": "2022-11-15T05:30:00Z",
+    "content": "Jahrelang hat Google Aufenthaltsorte von Nutzern für Werbezwecke gespeichert, obwohl diese die Funktion abgeschaltet wähnten. Nun muss der Konzern zahlen aber es hätte weitaus teurer werden können. U… [+3481 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "heise online"
+    },
+    "author": "Martin Holland",
+    "title": "BlueWalker 3: Riesiger Satellit komplett entfaltet, bald hierzulande sichtbar",
+    "description": "Die Antenne von BlueWalker 3 ist die größte eines kommerziellen Kommunikationssatelliten überhaupt. Jetzt ist sie komplett entfaltet, es gibt erste Sichtungen.",
+    "url": "https://www.heise.de/news/BlueWalker-3-Riesiger-Satellit-komplett-entfaltet-bald-hierzulande-sichtbar-7340325.html",
+    "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/3/6/4/3/3/2/5/2022-09-BlueWalker-3-BW3-3D-rendering-illustration-credit-nicooben-6-1536x864-79539242acf43331.jpg",
+    "publishedAt": "2022-11-15T11:09:00Z",
+    "content": "Das US-Unternehmen AST SpaceMobile hat den riesigen Kommunikationssatelliten BlueWalker 3 zwei Monate nach dessen Start aufgefaltet. Ersten Beobachtungen zufolge gehört er jetzt zu den hellsten Objek… [+3066 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "heise online"
+    },
+    "author": "Malte Kirchner",
+    "title": "Ostsee-Pipeline Nord Stream: Krimi, Kampfbegriff, Kehrtwende?",
+    "description": "Vor über zehn Jahren wurde die Pipeline Nord Stream 1 als Abkürzung für Gastransporte gebaut. Doch jetzt führt diese womöglich in eine ganz andere Richtung.",
+    "url": "https://www.heise.de/meinung/Ostsee-Pipeline-Nord-Stream-Krimi-Kampfbegriff-Kehrtwende-7339797.html",
+    "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/3/6/4/3/0/3/8/transport-nord-stream-new_0-e065d5aed617ba38.jpeg",
+    "publishedAt": "2022-11-15T04:30:00Z",
+    "content": "Inhaltsverzeichnis\r\nDie Frage, was mit den Ostsee-Gaspipelines Nord Stream 1 und 2 passiert ist, wer für die schwere Sabotage Ende September am Meeresgrund verantwortlich zeichnet, gleicht einem Krim… [+5903 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "9to5Mac"
+    },
+    "author": "Bradley Chambers",
+    "title": "Apple @ Work Podcast: Hold it till December",
+    "description": "Apple @ Work is brought to you by Mosyle, the only Apple Unified Platform. Mosyle is the only solution that fully integrates 5 different applications on a single Apple-only platform, allowing Businesses and Schools to easily and automatically deploy, manage &…",
+    "url": "https://9to5mac.com/2022/11/15/apple-work-podcast-hold-it-till-december/",
+    "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2019/08/Apple-at-Work.png?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "publishedAt": "2022-11-15T10:00:00Z",
+    "content": "Apple @ Work is brought to you by Mosyle, the only Apple Unified Platform. Mosyle is the only solution that fully integrates 5 different applications on a single Apple-only platform, allowing Busines… [+773 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "9to5Mac"
+    },
+    "author": "Michael Potuck",
+    "title": "How to put your face on your AirPods case with Apple’s free Memoji engraving",
+    "description": "Apple first launched free engraving with the 2nd-gen AirPods in 2019 and expanded the options to include emoji in early 2020. But did you know you can put your own face on AirPods with free Memoji engraving? Here’s where and how to access the option.\n more…\nT…",
+    "url": "https://9to5mac.com/2022/11/14/engrave-airpods-with-memoji/",
+    "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/11/how-to-engrave-airpods-with-memoji.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "publishedAt": "2022-11-15T00:15:16Z",
+    "content": "Apple first launched free engraving with the 2nd-gen AirPods in 2019 and expanded the options to include emoji in early 2020. But did you know you can put your own face on AirPods with free Memoji en… [+1640 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "9to5Mac"
+    },
+    "author": "Seth Kurkowski",
+    "title": "9to5Mac Daily: November 14, 2022 – The latest on Apple’s AR/VR headset",
+    "description": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apple’s Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overcast and other podcast players.\nSponsored by Tailscale: A fru…",
+    "url": "https://9to5mac.com/2022/11/14/9to5mac-daily-november-14-2022/",
+    "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2021/12/9to5Mac-Daily-art-lead.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "publishedAt": "2022-11-15T00:03:27Z",
+    "content": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apples Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overca… [+866 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "9to5Mac"
+    },
+    "author": "Chance Miller",
+    "title": "iPhone 13 vs iPhone 14: Which should you buy this holiday season?",
+    "description": "The iPhone 14 is the most affordable of Apple’s latest iPhone generation. However, the company continues to sell last year’s iPhone 13. Whether you’re considering an upgrade or looking to buy a new iPhone for the first time in several years, here’s everything…",
+    "url": "https://9to5mac.com/2022/11/14/iphone-13-vs-iphone-14-which-should-you-buy/",
+    "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/10/iPhone-13-vs-14.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "publishedAt": "2022-11-15T01:20:00Z",
+    "content": "The iPhone 14 is the most affordable of Apple’s latest iPhone generation. However, the company continues to sell last year’s iPhone 13. Whether you’re considering an upgrade or looking to buy a new i… [+12726 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "AppleInsider"
+    },
+    "author": "news@appleinsider.com (Christine McKee)",
+    "title": "Today's best early Black Friday deals on Apple, software & more",
+    "description": "With Black Friday a mere 11 days away, discounts on Apple gear are hitting a fever pitch with deals on 2022 hardware — and even some closeout steals.Early Black Friday deals are live on Apple products.Many of the Apple deals below offer record low prices. But…",
+    "url": "https://appleinsider.com/articles/22/11/15/todays-best-early-black-friday-deals-on-apple-software-more",
+    "urlToImage": "https://photos5.appleinsider.com/gallery/51372-101598-apple-early-black-friday-sale-2022-xl.jpg",
+    "publishedAt": "2022-11-15T02:05:59Z",
+    "content": "Early Black Friday deals are live on Apple products.\r\nAppleInsider may earn an affiliate commission on purchases made through links on our site.\r\nWith Black Friday a mere 11 days away, discounts on A… [+6830 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Elespanol.com"
+    },
+    "author": "Adrián Raya",
+    "title": "Así será el Pixel Fold: el primer móvil plegable de Google aparece en una gran filtración",
+    "description": "Las primeras imágenes renderizadas del Google Pixel Fold se han hecho públicas, y en el diseño de este plegable encontramos muchos detalles inspirados en el resto de la gama.",
+    "url": "https://www.elespanol.com/elandroidelibre/noticias-y-novedades/20221115/pixel-fold-primer-plegable-google-aparece-filtracion/718678132_0.html",
+    "urlToImage": "https://s1.eestatic.com/2022/11/15/elandroidelibre/718688138_228704169_600x315.jpg",
+    "publishedAt": "2022-11-15T07:06:08Z",
+    "content": "Google ha cambiado de planes. En vez de dedicarse casi todos sus esfuerzos en software y servicios, el gigante ahora se centrará en la venta de dispositivos Pixel para luchar contra Apple.\r\n[El móvil… [+2974 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Yanko Design"
+    },
+    "author": "Neha Mistry",
+    "title": "Top 10 sleek Japanese designs gift guide for those who love minimalism in their everyday life",
+    "description": "Top 10 sleek Japanese designs gift guide for those who love minimalism in their everyday lifeA place for everything, and everything in it’s place – that is the Japanese philosophy my 2 years living in that country taught me. The...",
+    "url": "https://www.yankodesign.com/2022/11/14/top-10-sleek-japanese-designs-gift-guide-for-those-who-love-minimalism-in-their-everyday-life/",
+    "urlToImage": "https://www.yankodesign.com/images/design_news/2022/11/top-10-sleek-japanese-designs-gift-guide-for-those-who-love-minimalism-in-their-everyday-life/01-Japanese-Designs_Screwdriver_Hero_1.jpg",
+    "publishedAt": "2022-11-15T01:45:12Z",
+    "content": "A place for everything, and everything in it’s place – that is the Japanese philosophy my 2 years living in that country taught me. The level of efficiency, detailed behaviour and organization visibl… [+9955 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Yanko Design"
+    },
+    "author": "Sarang Sheth",
+    "title": "Black Friday Discounts on BLUETTI’s power stations and solar panels makes energy independence more affordable",
+    "description": "Black Friday Discounts on BLUETTI’s power stations and solar panels makes energy independence more affordableMake sure your Black Friday doesn’t turn into a blackout Friday! BLUETTI just announced some incredible discounts and deals on their entire catalog of…",
+    "url": "https://www.yankodesign.com/2022/11/14/black-friday-discounts-on-bluettis-power-stations-and-solar-panels-makes-energy-independence-more-affordable/",
+    "urlToImage": "https://www.yankodesign.com/images/design_news/2022/11/black_friday_discounts_on_Bluetti_power_stations_hero.jpg",
+    "publishedAt": "2022-11-15T02:45:19Z",
+    "content": "Make sure your Black Friday doesnt turn into a blackout Friday! BLUETTI just announced some incredible discounts and deals on their entire catalog of power stations, giving everyone a chance to recla… [+9038 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Journal du geek"
+    },
+    "author": "Sebastian Danila",
+    "title": "Black Friday : À ce prix DINGUE le Dyson V8 Origin va partir à la vitesse de l’éclair ⚡",
+    "description": "L'excellent aspirateur balai Dyson V8 Origin fait l'objet d'une offre exceptionnelle du coté du e-commerçant Cdiscount. Une excellente opportunité pour s'en équiper au prix le plus bas du marché.\nBlack Friday : À ce prix DINGUE le Dyson V8 Origin va partir à …",
+    "url": "https://www.journaldugeek.com/bon-plan/black-friday-a-ce-prix-dingue-le-dyson-v8-origin-va-partir-a-la-vitesse-de-leclair/",
+    "urlToImage": "https://www.journaldugeek.com/content/uploads/2021/06/dyson-v8.jpg",
+    "publishedAt": "2022-11-15T08:25:49Z",
+    "content": "L'excellent aspirateur balai Dyson V8 Origin fait l'objet d'une offre exceptionnelle du coté du e-commerçant Cdiscount. Une excellente opportunité pour s'en équiper au prix le plus bas du marché.Blac… [+5571 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Applesfera.com"
+    },
+    "author": "Jesús Quesada",
+    "title": "Dónde comprar más barato el iPad este Black Friday 2022",
+    "description": "En Applesfera Selección estamos revisando constantemente las mejores ofertas para saber dónde comprar el iPhone más barato este Black Friday 2022, pero también vamos a mostrar dónde comprar en oferta el resto de dispositivos de la compañía, como el iPad. Esta…",
+    "url": "https://www.applesfera.com/seleccion/donde-comprar-barato-ipad-este-black-friday-2022",
+    "urlToImage": "https://i.blogs.es/bf7340/ipad-mas-barato/840_560.jpg",
+    "publishedAt": "2022-11-15T08:08:30Z",
+    "content": "En Applesfera Selección estamos revisando constantemente las mejores ofertas para saber dónde comprar el iPhone más barato este Black Friday 2022, pero también vamos a mostrar dónde comprar en oferta… [+2104 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Applesfera.com"
+    },
+    "author": "David Bernal Raspall",
+    "title": "\"Creemos que se debe invertir para conseguir la prosperidad\": Tim Cook habla de contratación y de trabajo en remoto en una nueva entrevista",
+    "description": "Tras varias noticias de que Apple estaba congelando la contratación, Tim Cook se ha sentado con la CBS para ofrecer una entrevista. Una entrevista en la que el máximo responsable de Apple nos habla de la ralentización, que no congelación, de la contratación, …",
+    "url": "https://www.applesfera.com/entrevistas/creemos-que-se-debe-invertir-para-conseguir-prosperidad-tim-cook-habla-contratacion-trabajo-remoto-nueva-entrevista",
+    "urlToImage": "https://i.blogs.es/4ca75b/tim-cook-11082020/840_560.jpeg",
+    "publishedAt": "2022-11-15T07:23:38Z",
+    "content": "Tras varias noticias de que Apple estaba congelando la contratación, Tim Cook se ha sentado con la CBS para ofrecer una entrevista. Una entrevista en la que el máximo responsable de Apple nos habla d… [+3247 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Applesfera.com"
+    },
+    "author": "David Bernal Raspall",
+    "title": "Todas las Apple Stores del mundo reunidas en una app. Estas son las curiosidades que podemos extraer",
+    "description": "Hay una buena cantidad de tiendas de Apple distribuidas por todo el mundo; 521, en total, pero todas ellas diferentes. Con su diseño inconfundiblemente Apple, pero con características únicas que hacen que cada una de ellas sea especial. Y entre tantas opcione…",
+    "url": "https://www.applesfera.com/curiosidades/todas-apple-stores-mundo-reunidas-app-estas-curiosidades-que-podemos-extraer",
+    "urlToImage": "https://i.blogs.es/9acb89/hero/840_560.jpeg",
+    "publishedAt": "2022-11-15T09:13:00Z",
+    "content": "Hay una buena cantidad de tiendas de Apple distribuidas por todo el mundo; 521, en total, pero todas ellas diferentes. Con su diseño inconfundiblemente Apple, pero con características únicas que hace… [+3177 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Applesfera.com"
+    },
+    "author": "David Bernal Raspall",
+    "title": "La ciencia afirma que dormir “cinco minutos más” tras el despertador es una pésima idea. Podemos evitarlo fácilmente con nuestro iPhone",
+    "description": "Suena el despertador y lo detenemos, pero… \"cinco minutos más, ¡por favor!\". Una escena de lo más frecuente a la que la ciencia ha arrojado luz tras un estudio del efecto que tiene sobre nosotros dormir tras el despertador. Viendo en los resultados que es una…",
+    "url": "https://www.applesfera.com/tutoriales/ciencia-afirma-que-dormir-cinco-minutos-despertador-pesima-idea-podemos-evitarlo-facilmente-nuestro-iphone",
+    "urlToImage": "https://i.blogs.es/0c31fc/imagen-1/840_560.jpeg",
+    "publishedAt": "2022-11-15T11:20:46Z",
+    "content": "Suena el despertador y lo detenemos, pero \"cinco minutos más, ¡por favor!\". Una escena de lo más frecuente a la que la ciencia ha arrojado luz tras un estudio del efecto que tiene sobre nosotros dorm… [+3151 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Presse-citron"
+    },
+    "author": "Presse-citron",
+    "title": "Bouygues Telecom sacrifie le prix de l’iPhone 14",
+    "description": "Grâce à la nouvelle solution Financement Smartphone 0%, Bouygues Telecom vous permet de repartir avec le nouvel iPhone 14 à 1 euro. On vous explique comment profiter de ce prix mini sur ce smartphone très convoité.",
+    "url": "https://www.presse-citron.net/bouygues-telecom-sacrifie-le-prix-de-liphone-14/",
+    "urlToImage": "https://www.presse-citron.net/app/uploads/2022/09/iPhone-14-006.jpg",
+    "publishedAt": "2022-11-15T07:30:56Z",
+    "content": "Le Black Friday arrive à grands pas et les marques commencent à proposer des offres alléchantes sur une grande variété de produits. À la rentrée, Apple a levé le voile sur ses très attendus iPhone 14… [+5949 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Golem.de"
+    },
+    "author": "Moritz Tremmel",
+    "title": "Tracking: Sammelklage wirft Apple illegale Datensammelei vor",
+    "description": "Apple sammelt umfassend Daten über seine Nutzer - auch wenn diese das eigentlich deaktiviert haben. Nun haben iPhone-Nutzer aus den USA Klage eingereicht. (iOS, Apple)",
+    "url": "https://www.golem.de/sonstiges/zustimmung/auswahl.html?from=https%3A%2F%2Fwww.golem.de%2Fnews%2Ftracking-sammelklage-wirft-apple-illegale-datensammelei-vor-2211-169764.html&referer=https%3A%2F%2Ft.co%2F879d42b422",
+    "urlToImage": null,
+    "publishedAt": "2022-11-15T11:17:01Z",
+    "content": "Besuchen Sie Golem.de wie gewohnt mit Werbung und Tracking, indem Sie der Nutzung aller Cookies zustimmen.\r\n Details zum Tracking finden Sie im Privacy Center.\r\nSkript wurde nicht geladen. Informatio… [+575 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "HYPEBEAST"
+    },
+    "author": "info@hypebeast.com (HYPEBEAST)",
+    "title": "Seth Rogen Developing, Starring in New Apple TV+ Comedy Series",
+    "description": "Seth Rogen is set to start in a new Apple TV+ comedy series about the entertainment industry, as well as develop the half-hour project alongside Evan Goldberg, Peter Huyck and Alex Gregory.According to reports, the untitled show follows the story of a longsta…",
+    "url": "https://hypebeast.com/2022/11/seth-rogen-starring-developing-apple-tv-plus-film-industry-comedy-series",
+    "urlToImage": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F11%2Fseth-rogen-starring-developing-apple-tv-plus-film-industry-comedy-series-tw.jpg?w=960&cbr=1&q=90&fit=max",
+    "publishedAt": "2022-11-15T08:00:14Z",
+    "content": "Seth Rogen is set to start in a new Apple TV+ comedy series about the entertainment industry, as well as develop the half-hour project alongside Evan Goldberg, Peter Huyck and Alex Gregory.\r\nAccordin… [+820 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Android Authority"
+    },
+    "author": "Adamya Sharma",
+    "title": "A new Motorola smartwatch just showed up out of nowhere",
+    "description": "The Moto Watch 70 appears to be a basic smartwatch with a square display. It doesn't have Wear OS, nor does it support cellular connectivity.",
+    "url": "https://www.androidauthority.com/moto-watch-70-3234818/",
+    "urlToImage": "https://www.androidauthority.com/wp-content/uploads/2022/11/Motorola-Watch-70.jpg",
+    "publishedAt": "2022-11-15T08:40:03Z",
+    "content": "<ul><li>The Motorola Watch 70 has appeared in a retail listing, complete with specs, pricing, and other details.</li><li>Motorola hasnt announced the watch officially.</li></ul>\r\nMotorola is apparent… [+1426 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Presse-citron"
+    },
+    "author": "Presse-citron",
+    "title": "Black Friday : ce mardi matin, 10 pépites à saisir sur Amazon ⚡️",
+    "description": "Amazon lance son Black Friday avec une première salve de bonnes affaires. Ce mardi, on vous a identifié toutes les offres à ne pas rater sur le web. Attention, les ruptures de stock arrivent parfois très vite sur les best-sellers.",
+    "url": "https://www.presse-citron.net/black-friday-ce-mardi-matin-10-pepites-a-saisir-sur-amazon/",
+    "urlToImage": "https://www.presse-citron.net/app/uploads/2022/11/Blackfridaylive.jpg",
+    "publishedAt": "2022-11-15T05:30:04Z",
+    "content": "Aux Etats-Unis, le Black Friday dure 24 heures. En France, il s’étale quasiment sur deux semaines. Les marchands ont compris que le comportement des français était différent et qu’ils n’aimaient pas … [+5504 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Presse-citron"
+    },
+    "author": "Setra",
+    "title": "Et si votre prochaine smartwatch était à base de champignons ?",
+    "description": "Des chercheurs découvrent qu’on peut créer des composants électroniques avec des champignons. Et cela pourrait rendre nos futurs gadgets plus faciles à recycler.",
+    "url": "https://www.presse-citron.net/et-si-votre-prochaine-smartwatch-etait-a-base-de-champignons/",
+    "urlToImage": "https://www.presse-citron.net/app/uploads/2022/11/circuit-electronique-sur-champignon.jpg",
+    "publishedAt": "2022-11-15T10:30:09Z",
+    "content": "Alors quon vit dans un monde de plus en plus connecté, les déchets électroniques saccumulent. Raison pour laquelle, par exemple, lEurope va imposer le port USB-C à Apple.\r\nMais outre les efforts en t… [+3120 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "The A.V. Club"
+    },
+    "author": "Sam Barsanti",
+    "title": "Apple TV Plus picks up Seth Rogen comedy series about modern Hollywood",
+    "description": "In a curiously meta move that calls to mind Netflix making a sitcom about the last Blockbuster, Apple TV+ has won the rights to a new comedy series from Seth Rogen about “a legacy Hollywood movie studio trying to survive in a world where it is increasingly di…",
+    "url": "https://www.avclub.com/seth-rogen-apple-tv-plus-1849783013",
+    "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/c1d75730d5e2a7999d780d9ed493837f.jpg",
+    "publishedAt": "2022-11-15T01:15:00Z",
+    "content": "In a curiously meta move that calls to mind Netflix making a sitcom about the last Blockbuster, Apple TV+ has won the rights to a new comedy series from Seth Rogen about a legacy Hollywood movie stud… [+1464 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Faz.net"
+    },
+    "author": "bard./Reuters",
+    "title": "Warren Buffett steigt bei Taiwans TSMC ein",
+    "description": "Berkshire Hathaway setzt auf Taiwans Technologie-Führerschaft. Der Investmentriese des Anleger-Gurus Buffett kauft sich beim weltgrößten Halbleiter-Hersteller ein.",
+    "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/warren-buffett-steigt-bei-taiwans-tsmc-ein-18461891.html",
+    "urlToImage": "https://media1.faz.net/ppmedia/aktuell/wirtschaft/2006659440/1.8461931/facebook_teaser/mit-92-jahren-liegt-warren.jpg",
+    "publishedAt": "2022-11-15T02:49:17Z",
+    "content": "Die amerikanische Investmentfirma Berkshire Hathaway des Milliardärs Warren Buffett wagt mit einer Investition in Milliardenhöhe einen seltenen Vorstoß in den Technologiesektor. Das Unternehmen kauft… [+684 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "iMore"
+    },
+    "author": "Tammy Rogers",
+    "title": "Black Friday Apple deals: MacBooks, Apple Watches, and AirPods galore",
+    "description": "Black Friday may be a little while away, but there are still some great deals on Apple kit to be found.",
+    "url": "https://www.imore.com/news/live/apple-black-friday-deals-111422",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/ZPQ7KYtNqVWoskM3h3Fh8F-1200-80.jpg",
+    "publishedAt": "2022-11-15T10:05:05Z",
+    "content": "2022-11-15T10:59:41.752Z\r\n(Image credit: Future/ iMore)\r\nFancy watching all your streamed TV in 4K? This Fire TV Stick 4K has all your favorite streaming channels, including Apple TV+, and it just sl… [+22483 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "iMore"
+    },
+    "author": "heyimjoew@gmail.com (Joe Wituschek)",
+    "title": "The Facades app is a 'field guide' for every Apple Store ever built",
+    "description": "Michael Steeber, the author of the Apple Store newsletter Tabletops, has launched a new app called Facades.",
+    "url": "https://www.imore.com/apple/someone-created-a-field-guide-app-for-every-apple-store-ever-built",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/beP7v77qqWc7kifdZS5Nya-1200-80.jpeg",
+    "publishedAt": "2022-11-15T01:07:02Z",
+    "content": "If you're a fan of the Apple Store, you're probably going to love this app.\r\nToday, Michael Steeber, the author of the Apple Store-focused newsletter Tabletops, launched his first full-fledged app on… [+1726 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "iMore"
+    },
+    "author": "heyimjoew@gmail.com (Joe Wituschek)",
+    "title": "Apple is pushing a rare discount on Macs for small businesses",
+    "description": "Apple is reportedly rolling out a new sales campaign that offers a rare price discount on Macs for small businesses.",
+    "url": "https://www.imore.com/mac/apple-is-pushing-a-rare-discount-on-macs-for-small-businesses",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/w7NKUbsp7ucBib9HPWARkj-1200-80.jpg",
+    "publishedAt": "2022-11-15T00:11:51Z",
+    "content": "Apple is really trying to push Mac sales.\r\nAs reported by Bloomberg, the company has reportedly launched a new sales campaign that is attempting to boost slowing Mac sales. The sales campaign, which … [+1596 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "MacRumors"
+    },
+    "author": "Sami Fathi",
+    "title": "tvOS 16.1 Bug Wrongly Identifies New 128GB Apple TVs as 64GB Models",
+    "description": "A bug on tvOS 16.1 is causing models of the latest Apple TV with 128GB of storage to virtually run out of memory once a user has used 64GB of storage. \n\n\n\n\n\nThe bug, first highlighted in FlatpanelsHD's review of the new ‌Apple TV‌ and more recently by Mac Wor…",
+    "url": "https://www.macrumors.com/2022/11/15/tvos-apple-tv-storage-bug/",
+    "urlToImage": "https://images.macrumors.com/t/yahagDRaUwJedSpmk_nrcNOR2aM=/2500x/article-new/2022/10/apple-tv-4k-yellow-bg-feature.jpg",
+    "publishedAt": "2022-11-15T09:56:30Z",
+    "content": "A bug on tvOS 16.1 is causing models of the latest Apple TV with 128GB of storage to virtually run out of memory once a user has used 64GB of storage. \r\nThe bug, first highlighted in FlatpanelsHD's r… [+719 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Les Numériques"
+    },
+    "author": "Rick",
+    "title": "Actualité : Bon plan – L'ordinateur Portable Samsung Galaxy Book2 Pro 15 (Core i7) \"5 étoiles\" à 1 509,00 €",
+    "description": "L'ordinateur Portable Samsung Galaxy Book2 Pro 15 (Core i7) passe sous les 1600 € chez Ubaldi. C'est actuellement l'un des meilleurs produit de notre comparatif.",
+    "url": "https://www.lesnumeriques.com/ordinateur-portable/bon-plan-l-ordinateur-portable-samsung-galaxy-book2-pro-15-core-i7-5-etoiles-a-1-509-00-n196001.html",
+    "urlToImage": "https://cdn.lesnumeriques.com/optim/test/18/181435/98dd5f11-l-ultrabook-samsung-galaxy-book2-pro-15-le-retour-du-roi__1200_630__0-58-3072-1671_wtmk.jpeg",
+    "publishedAt": "2022-11-15T07:15:21Z",
+    "content": "Samsung fait son retour sur le marché français avec ses Galaxy Book2. La déclinaison Pro est pourvue dune dalle Amoled de 15,6 pouces et dun processeur Intel Core i7, le tout dans un peu moins de 12 … [+1437 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Xatakamovil.com"
+    },
+    "author": "Laura Sacristán",
+    "title": "Black Friday en Movistar: más dispositivos desde cero euros, el doble de saldo en prepago y más",
+    "description": "Mientras continúa preparando la subida de precios prevista para 2023, Movistar ha puesto en marcha una serie de promociones destinadas a portabilidades o nuevas altas. Además, en el marco del Black Friday, ha ampliado notablemente su catálogo de dispositivos …",
+    "url": "https://www.xatakamovil.com/movistar/black-friday-movistar-dispositivos-cero-euros-doble-saldo-prepago",
+    "urlToImage": "https://i.blogs.es/44a391/movistar-promo/840_560.jpg",
+    "publishedAt": "2022-11-15T08:00:26Z",
+    "content": "Mientras continúa preparando la subida de precios prevista para 2023, Movistar ha puesto en marcha una serie de promociones destinadas a portabilidades o nuevas altas. Además, en el marco del Black F… [+2718 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Caschys Blog"
+    },
+    "author": "Felix Frank",
+    "title": "Google Health Connect: Ab sofort als Beta verfügbar",
+    "description": "Googles Health-Connect-App steht ab sofort als Beta über den Google Play Store bereit. Ihr kennt Health Connect nicht, dann lasst mich euch kurz auf den Stand der Dinge bringen. Health Connect dient dazu, Gesundheits- und Fitnessdaten aus diversen Fitness-App…",
+    "url": "https://stadt-bremerhaven.de/google-health-connect-ab-sofort-als-beta-verfuegbar/",
+    "urlToImage": "https://stadt-bremerhaven.de/wp-content/uploads/2022/11/healthConnect_blog2.jpg",
+    "publishedAt": "2022-11-15T05:30:34Z",
+    "content": "Googles Health-Connect-App steht ab sofort als Beta über den Google Play Store bereit. Ihr kennt Health Connect nicht, dann lasst mich euch kurz auf den Stand der Dinge bringen. Health Connect dient … [+2326 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Wwwhatsnew.com"
+    },
+    "author": "Nicolás Verdejo",
+    "title": "Subastan sandalias utilizadas por Steve Jobs en la década de 1970 por más de 200 mil dólares",
+    "description": "Steve Jobs, cofundador de Apple, es considerado un influyente personaje de la historia contemporánea, con aportes que trascienden desde la tecnología, hasta el entretenimiento y el marketing. Tal como ocurre con otras personas de tal relevancia, quienes sigue…",
+    "url": "https://wwwhatsnew.com/2022/11/15/subastan-sandalias-utilizadas-por-steve-jobs-en-la-decada-de-1970-por-mas-de-200-mil-dolares/",
+    "urlToImage": "https://wwwhatsnew.com/wp-content/uploads/2022/11/Sandalias-Jobs.jpg",
+    "publishedAt": "2022-11-15T11:00:24Z",
+    "content": "Steve Jobs, cofundador de Apple, es considerado un influyente personaje de la historia contemporánea, con aportes que trascienden desde la tecnología, hasta el entretenimiento y el marketing.\r\nTal co… [+2370 chars]"
+    }
+]
+}
